@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function About() {
     return (
-        <section id="about" className="py-60 w-screen relative bg-linear-to-b from-black to-blue-background">
+        <section id="about" className="py-60 w-screen relative bg-[linear-gradient(to_bottom,black_0%,#0b132b_30%,#0b132b_100%)]">
             <div className="relative mx-auto flex flex-row items-center justify-center max-w-7xl">
                 {/* about content */}
                 <div className="w-1/2 flex flex-col items-end gap-8 px-8">
