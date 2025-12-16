@@ -5,6 +5,7 @@ import { Navbar, NavbarButton, MobileNav, MobileNavToggle, MobileNavMenu, NavBod
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Projects } from "@/components/Projects";
+import { Events } from "@/components/Events";
 
 export default function Home() {
   const navItems = [
@@ -97,6 +98,9 @@ export default function Home() {
 
       {/* projects section */}
       <Projects />
+
+      {/* events section */}
+      <Events />
     </div>
   );
 }
