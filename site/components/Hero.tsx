@@ -42,9 +42,14 @@ export function Hero() {
             <div className="h-16 w-56 rounded-full bg-primary/40 blur-3xl" />
           </div>
 
-          <button className="relative rounded-full bg-primary px-12 py-3 text-sm font-semibold tracking-wide text-[#111827] shadow-[0_20px_45px_rgba(0,0,0,0.7)] transition hover:bg-[#fbbf24]">
+          <a
+            href="https://discord.gg/wGP3uAkz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative rounded-full bg-primary px-12 py-3 text-sm font-semibold tracking-wide text-[#111827] shadow-[0_20px_45px_rgba(0,0,0,0.7)] transition hover:bg-[#fbbf24]"
+          >
             JOIN US
-          </button>
+          </a>
           <p className="text-xs text-slate-300/70">
             Open to all majors • No experience required
           </p>

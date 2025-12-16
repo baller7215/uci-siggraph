@@ -43,7 +43,7 @@ export default function Home() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Join Us</NavbarButton>
+            <NavbarButton variant="primary" href="https://discord.gg/wGP3uAkz" target="_blank" rel="noopener noreferrer">Join Us</NavbarButton>
           </div>
         </NavBody>
  
@@ -74,6 +74,9 @@ export default function Home() {
             <div className="flex w-full flex-col gap-4">
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
+                href="https://discord.gg/wGP3uAkz"
+                target="_blank"
+                rel="noopener noreferrer"
                 variant="primary"
                 className="w-full"
               >
