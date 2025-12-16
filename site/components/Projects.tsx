@@ -74,7 +74,7 @@ export function Projects() {
     ];
 
     return (
-        <section id="projects" className="py-60 w-screen relative bg-[#0b132b]">
+        <section id="projects" className="py-32 w-screen relative bg-[#0b132b]">
             <div className="relative mx-auto flex flex-col gap-12 items-start justify-center max-w-7xl px-6">
                 {/* projects section title */}
                 <div className="flex flex-col gap-2">

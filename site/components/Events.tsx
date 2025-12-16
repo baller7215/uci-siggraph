@@ -63,7 +63,7 @@ export function Events() {
     ];
 
     return (
-        <section id="events" className="py-60 w-screen relative bg-[#0b132b]">
+        <section id="events" className="py-64 w-screen relative bg-[#0b132b]">
             <div className="relative mx-auto flex flex-col gap-12 items-start justify-center max-w-7xl px-6">
                 {/* events section title */}
                 <div className="flex flex-col gap-2">
