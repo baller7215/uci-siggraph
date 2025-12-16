@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Navbar, NavbarButton, MobileNav, MobileNavToggle, MobileNavMenu, NavBody, NavbarLogo, NavItems, MobileNavHeader } from "@/components/ui/resizable-navbar";
 import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
 
 export default function Home() {
   const navItems = [
@@ -87,7 +88,11 @@ export default function Home() {
         </MobileNav>
       </Navbar>
       
+      {/* hero section */}
       <Hero />
+
+      {/* about section */}
+      <About />
     </div>
   );
 }

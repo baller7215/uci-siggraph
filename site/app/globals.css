@@ -10,6 +10,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
+  --color-blue-background: #0b132b;
+
   --color-border: #00000014;
   --color-input: #071022;
 
