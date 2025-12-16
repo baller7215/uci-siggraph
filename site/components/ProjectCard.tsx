@@ -17,12 +17,12 @@ export function ProjectCard({ title, description, tags, imageSrc, imageAlt }: Pr
             {/* content wrapper with relative positioning */}
             <div className="relative z-10 flex flex-col gap-4">
                 {/* project image */}
-                <div className="relative w-full h-48 overflow-hidden rounded-lg">
+                <div className="relative w-full h-96 overflow-hidden rounded-lg rounded-b-none">
                     <Image
                         src={imageSrc}
                         alt={imageAlt}
                         fill
-                        className="object-cover rounded-lg transition-transform duration-500 ease-in-out group-hover:scale-110"
+                        className="object-cover rounded-lg rounded-b-none transition-transform duration-500 ease-in-out group-hover:scale-110"
                     />
                 </div>
                 

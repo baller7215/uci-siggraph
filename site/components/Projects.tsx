@@ -3,26 +3,19 @@ import { ProjectCard } from "./ProjectCard";
 export function Projects() {
     const projects = [
         {
-            title: "3D Shader Workshop",
-            description: "An interactive deep dive into GLSL shaders and realtime rendering techniques.",
-            tags: ["WEBGL", "GRAPHICS"],
-            imageSrc: "/logo/siggraph-logo.png", // Replace with actual project image
-            imageAlt: "3D Shader Workshop code editor",
+            title: "Ray Tracing @ UCI",
+            description: "Interested in learning on where those cool images where diffuse and specular spheres come from? Why do we trace rays? What does that even mean? This workshop is perfect place to learn about beginner ray tracing and what you can do with it!",
+            tags: ["RAY TRACING", "WORKSHOP"],
+            imageSrc: "/events/ray-tracing.jpg",
+            imageAlt: "Ray Tracing Workshop",
         },
         {
-            title: "AR Demo Night",
-            description: "Showcasing student-built augmented reality experiences using Unity and ARKit.",
-            tags: ["AR/VR", "UNITY"],
-            imageSrc: "/logo/siggraph-logo.png", // Replace with actual project image
-            imageAlt: "AR Demo Night VR headset",
-        },
-        {
-            title: "Realtime Ray Tracing",
-            description: "Implementing a basic ray tracer from scratch in C++ to understand light transport.",
-            tags: ["C++", "RENDERING"],
-            imageSrc: "/logo/siggraph-logo.png", // Replace with actual project image
-            imageAlt: "Realtime Ray Tracing visualization",
-        },
+            title: "Blender Workshop @ UCI",
+            description: "A workshop from a guest speaker, Michael Moretti, on 3D modeling and digital sculpting with Blender.",
+            tags: ["3D MODELING", "WORKSHOP"],
+            imageSrc: "/events/blender-workshop.jpg",
+            imageAlt: "Blender Workshop",
+        }
     ];
 
     return (

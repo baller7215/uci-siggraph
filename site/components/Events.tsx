@@ -3,18 +3,18 @@ import { EventCard } from "./EventCard";
 export function Events() {
     const events = [
         {
-            date: "OCT 24",
-            title: "Intro to Blender 4.0",
-            description: "Join us for a beginner-friendly workshop on modeling, sculpting, and texturing in the latest version of Blender.",
+            date: "OCT 21",
+            title: "Ray Tracing Workshop @ UCI",
+            description: "Interested in learning on where those cool images where diffuse and specular spheres come from? Why do we trace rays? What does that even mean? This workshop is perfect place to learn about beginner ray tracing and what you can do with it!",
             icon: "calendar" as const,
             rsvpLink: "#",
         },
         {
-            date: "NOV 08",
-            title: "Industry Speaker: Pixar",
-            description: "A special guest lecture from a Pixar technical director discussing pipeline tools and character rigging.",
+            date: "OCT 14",
+            title: "Blender Workshop @ UCI",
+            description: "A workshop from a guest speaker, Michael Moretti, on 3D modeling and digital sculpting with Blender.",
             icon: "microphone" as const,
-            rsvpLink: "#",
+            rsvpLink: "https://forms.gle/h7YeC9iBfigjDEbB9",
         },
     ];
 
