@@ -19,6 +19,22 @@ export function About() {
                         foster a community of artists, engineers, and creators 
                         passionate about the intersection of technology and art.
                     </p>
+
+                    <div className="relative flex flex-col items-center gap-4">
+                        {/* glow behind button */}
+                        <div className="pointer-events-none absolute inset-x-0 -top-4 flex justify-center">
+                            <div className="h-16 w-56 rounded-full bg-primary/40 blur-3xl" />
+                        </div>
+
+                        <a
+                            href="https://www.siggraph.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="relative rounded-full bg-primary px-12 py-3 text-sm font-semibold tracking-wide text-[#111827] shadow-[0_20px_45px_rgba(0,0,0,0.7)] transition hover:bg-[#fbbf24]"
+                        >
+                            MORE ABOUT SIGGRAPH
+                        </a>
+                    </div>
                 </div>
 
                 {/* vertical divider */}
