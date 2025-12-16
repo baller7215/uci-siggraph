@@ -6,6 +6,7 @@ import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Projects } from "@/components/Projects";
 import { Events } from "@/components/Events";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   const navItems = [
@@ -101,6 +102,9 @@ export default function Home() {
 
       {/* events section */}
       <Events />
+
+      {/* footer */}
+      <Footer />
     </div>
   );
 }
