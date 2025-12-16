@@ -3,14 +3,14 @@ import Image from "next/image";
 export function About() {
     return (
         <section id="about" className="py-60 w-screen relative bg-[linear-gradient(to_bottom,black_0%,#0b132b_30%,#0b132b_100%)]">
-            <div className="relative mx-auto flex flex-row items-center justify-center max-w-7xl">
+            <div className="relative mx-auto flex flex-col md:flex-row gap-12 md:gap-0 items-center justify-center max-w-7xl">
                 {/* about content */}
-                <div className="w-1/2 flex flex-col items-end gap-8 px-8">
+                <div className="w-full md:w-1/2 flex flex-col items-start md:items-end gap-8 px-8">
                     <h2 className="text-lg font-bold text-primary uppercase">About</h2>
                     <h3 className="text-5xl font-bold text-background">
                         Who We Are
                     </h3>
-                    <p className="text-base text-right text-background/70">
+                    <p className="text-base text-left md:text-right text-background/70">
                         UCI SIGGRAPH is the local student chapter of the Association
                         for Computing Machinery's Special Interest Group on 
                         Computer Graphics and Interactive Techniques.
@@ -22,10 +22,10 @@ export function About() {
                 </div>
 
                 {/* vertical divider */}
-                <div className="w-px h-full min-h-[400px] bg-primary mx-4" />
+                <div className="w-px h-full min-h-[400px] bg-primary mx-4 hidden md:block" />
 
                 {/* about image */}
-                <div className="w-1/2 flex flex-col items-start justify-center gap-4 rounded-lg px-8">
+                <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-4 rounded-lg px-8">
                     <Image src="/logo/acm-siggraph-logo.jpg" alt="ACM SIGGRAPH Logo" className="rounded-lg" width={500} height={500} />
                 </div>
             </div>

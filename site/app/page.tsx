@@ -77,13 +77,6 @@ export default function Home() {
                 variant="primary"
                 className="w-full"
               >
-                Login
-              </NavbarButton>
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
                 Join Us
               </NavbarButton>
             </div>
